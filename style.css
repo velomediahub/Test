@@ -15,7 +15,7 @@ header {
 }
 
 .hero {
-    background-image: linear-gradient(to right, pink, yellow, lightgreen);
+    background-image: url('images/hero_background.png');
     background-size: cover;
     background-position: center;
     color: #333;
