@@ -22,7 +22,10 @@
     </nav>
     <main>
         <h2>Choose a Coloring Page:</h2>
-        <div class="coloring-page-links">
+        <div class="search-container">
+            <input type="text" id="searchInput" onkeyup="searchPages()" placeholder="Search for coloring pages...">
+        </div>
+        <div class="coloring-page-links" id="coloringPageLinks">
             <a href="rainbow-coloring.html">
                 <img src="images/rainbow_thumbnail.png" alt="Rainbow Coloring Page Thumbnail">
                 <p>Rainbow Fun</p>
