@@ -13,7 +13,7 @@ function searchPages() {
         if (p) {
             let textValue = p.textContent || p.innerText;
             if (textValue.toLowerCase().indexOf(filter) > -1) {
-                links[i].style.display = "";
+                links[i].style.display = "inline-block"; // Changed this line
             } else {
                 links[i].style.display = "none";
             }
