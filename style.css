@@ -8,10 +8,24 @@ body {
 }
 
 header {
-    background-color: #ff69b4; /* Pink */
+    background-color: #ff69b4; /* Pink fallback */
     color: white;
     padding: 1em 0;
     text-align: center;
+}
+
+.hero {
+    background-image: url('images/hero_background.png');
+    background-size: cover;
+    background-position: center;
+    padding: 3em 0; /* More padding for hero section */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Add text shadow for readability */
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
 }
 
 nav {
@@ -82,4 +96,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
